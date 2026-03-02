@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* WRITS base styling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #111111;
+  background: #ffffff;
+}
+
+/* WRITS button */
+.btn-primary {
+  @apply bg-writs-red text-white px-5 py-3 rounded-xl font-semibold transition;
+}
+
+.btn-primary:hover {
+  @apply bg-writs-redDark;
+}
